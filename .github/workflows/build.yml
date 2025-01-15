@@ -23,8 +23,8 @@ jobs:
       run: |
         flutter build macos
         mkdir -p target
-        cp -R build/macos/Build/Products/Release/pak_manager.app target/
-        sudo chmod +x target/pak_manager.app/Contents/MacOS/pak_manager
+        cp -R build/macos/Build/Products/Release/palworld_mods_manager.app target/
+        sudo chmod +x target/palworld_mods_manager.app/Contents/MacOS/palworld_mods_manager
 
     - uses: QQxiaoming/create-dmg-action@v0.0.2
       with:
